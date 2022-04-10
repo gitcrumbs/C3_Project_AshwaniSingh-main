@@ -28,16 +28,7 @@ public class Restaurant {
     public LocalTime getCurrentTime(){ return  LocalTime.now(); }
 
     public List<Item> getMenu() {
-        Item i1 = new Item("Pizza",200);
-        Item i2 = new Item("Burger",100);
-        Item i3 = new Item("Pasta",100);
-        Item i4 = new Item("Donut",50);
-        Item i5 = new Item("Coffee",10);
-        menu.add(i1);
-        menu.add(i2);
-        menu.add(i3);
-        menu.add(i4);
-        menu.add(i5);
+        
         return menu;
 
     }
